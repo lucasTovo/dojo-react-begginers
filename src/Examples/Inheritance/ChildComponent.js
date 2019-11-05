@@ -1,6 +1,6 @@
 import React from 'react';
 
-class PrimeiroComponenteFilhoClassudo extends React.Component {
+class ChildComponent extends React.Component {
 
   componentDidMount() {
 
@@ -21,4 +21,4 @@ class PrimeiroComponenteFilhoClassudo extends React.Component {
   }
 };
 
-export default PrimeiroComponenteFilhoClassudo;
+export default ChildComponent;

@@ -1,4 +1,4 @@
-import { configure } from '@storybook/react';
+import { addParameters, configure } from '@storybook/react';
 import 'normalize.css';
 import '../src/App.css';
 const req = require.context('../stories', true, /.stories.js$/);
@@ -10,3 +10,10 @@ function loadStories() {
 }
 
 configure(loadStories, module);
+
+addParameters({
+  options: {
+    showAddonPanel: false,
+  },
+});
+

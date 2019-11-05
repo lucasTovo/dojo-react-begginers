@@ -1,5 +1,5 @@
 import React from 'react';
-import PrimeiroComponenteFilhoClassudo from './ChildComponent';
+import ChildComponent from './ChildComponent';
 
 class MeuComponenteClassudo extends React.Component {
   constructor(props) {
@@ -36,7 +36,7 @@ class MeuComponenteClassudo extends React.Component {
     const filhoMontado = this.state.filhoMontado;
     const text = filhoMontado ? 'montou!' : 'Aguardando montar';
 
-    const child = this.state.montarFilho && <PrimeiroComponenteFilhoClassudo avisaQueMontou={this.montou} avisaQueDesmontou={this.avisaQueDesmontou} />;
+    const child = this.state.montarFilho && <ChildComponent avisaQueMontou={this.montou} avisaQueDesmontou={this.avisaQueDesmontou} />;
 
     return (
       <div>
