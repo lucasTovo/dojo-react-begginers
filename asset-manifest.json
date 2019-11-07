@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/main.css",
+    "main.js": "/main.9c840e163cc65c831ff0.bundle.js",
+    "main.css.map": "/main.css.map",
+    "main.js.map": "/main.9c840e163cc65c831ff0.bundle.js.map",
+    "runtime~main.js": "/runtime~main.9c840e163cc65c831ff0.bundle.js",
+    "runtime~main.js.map": "/runtime~main.9c840e163cc65c831ff0.bundle.js.map",
+    "vendors~main.css": "/vendors~main.css",
+    "vendors~main.js": "/vendors~main.9c840e163cc65c831ff0.bundle.js",
+    "vendors~main.css.map": "/vendors~main.css.map",
+    "vendors~main.js.map": "/vendors~main.9c840e163cc65c831ff0.bundle.js.map",
+    "iframe.html": "/iframe.html",
+    "precache-manifest.561d764d913fd9fa6d9cc8c212f532e9.js": "/precache-manifest.561d764d913fd9fa6d9cc8c212f532e9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/blond-man.svg": "/static/media/blond-man.2ecb076c.svg",
+    "static/media/boy-2.svg": "/static/media/boy-2.e5df74d3.svg",
+    "static/media/boy.svg": "/static/media/boy.c5427690.svg",
+    "static/media/man-2.svg": "/static/media/man-2.67595189.svg",
+    "static/media/man.svg": "/static/media/man.378c61cb.svg"
+  }
+}
