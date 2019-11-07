@@ -16,7 +16,7 @@ export const GetHeroName = (defaultObject) => {
 
 export const GetHeroAttribute = (heroName) => {
     const attribute = {
-        giovane: '"o grande"!',
+        giovani: '"o grande"!',
         nikolas: '"o astuto"!',
         lucas: '"o místico"!',
         evandro: '"o sábio"!',
@@ -27,7 +27,7 @@ export const GetHeroAttribute = (heroName) => {
 
 export const GetHeroColor = (heroName) => {
     const color = {
-        giovane: '#3cacde',
+        giovani: '#3cacde',
         nikolas: '#74a32e',
         lucas: '#ad3228',
         evandro: '#2e6aa3',

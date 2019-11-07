@@ -5,7 +5,7 @@ import * as Styled from './style';
 
 const SeletorDePersonagem = () => {
     const [participanteEscolhido, AlteraParticipanteEscolhido] = useState({
-        giovane: false,
+        giovani: false,
         nikolas: false,
         lucas: false,
         evandro: false,
@@ -21,11 +21,11 @@ const SeletorDePersonagem = () => {
                 <Styled.CardLike>
                     <Styled.HeroBox>
                         <Styled.HeroName>
-                            Giovane
+                            Giovani
                         </Styled.HeroName>
                         <Styled.HeroImage
-                            onClick={() => AlteraParticipanteEscolhido(SwitchHero(participanteEscolhido, 'giovane'))}
-                            isSelected={participanteEscolhido.giovane}
+                            onClick={() => AlteraParticipanteEscolhido(SwitchHero(participanteEscolhido, 'giovani'))}
+                            isSelected={participanteEscolhido.giovani}
                         >
                             <img src={heroeImg.boy} />
                         </Styled.HeroImage>
