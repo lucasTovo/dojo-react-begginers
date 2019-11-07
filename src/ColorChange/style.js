@@ -1,48 +1,3 @@
-// import {StyleSheet} from 'react-native';
-
-// const styles = StyleSheet.create({
-//     container: {
-//         flex: 1,
-//         alignItems: 'center',
-//         justifyContent: 'space-around',
-//     },
-
-//     viewGo: {
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         width: '100%',
-//         height: 60,
-//     },
-
-//     go: {
-//         fontWeight: 'bold',
-//         color: '#fff',
-//         textShadowRadius: 2,
-//         textShadowColor: '#000',
-//     },
-
-//     actionButtom: {
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         backgroundColor: '#ffffff60',
-//         borderColor: '#ffffff40',
-//         borderRadius: 100,
-//         borderWidth: 3,
-//         height: 60,
-//     },
-
-//     time: {
-//         fontWeight: 'bold',
-//         color: '#fff',
-//         textShadowRadius: 2,
-//         textShadowColor: '#000',
-//         height: 60,
-//         fontSize: 24,
-//     },
-// });
-
-// export default styles;
-
 import Styled, { keyframes } from "styled-components";
 
 /*
@@ -71,9 +26,21 @@ const Loukura = keyframes`
     }
 `;
 
+
+const translateIt = keyframes`
+    0% {
+        transform: translate(-100%);
+    } 90% {
+        transform: translate(12%);
+    } 100% {
+        transform: translate(0);
+    }
+`;
+
 export const Container = Styled.div`
     width: 100vw;
     height: 100vh;
+    background: ${props => props.background};
     padding: 30px 65px;
     text-align: center;
 `;
@@ -93,6 +60,14 @@ export const Paragrafo = Styled.p`
     height: 60px;
     margin: ${props => props.margin || "0px"};
     font-family: 'Sans-serif';
+`;
+
+export const GrowContainer = Styled.div`
+    overflow: hidden;
+    p {
+        color: #424242;
+        animation: ${translateIt} 1s ease-out forwards;
+    }
 `;
 
 export const Button = Styled.button`

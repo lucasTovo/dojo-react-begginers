@@ -43,6 +43,7 @@ const Loukurinha = keyframes`
 
 export const Container = Styled.div`
     padding: 30px 65px;
+    height: 80vh;
     animation: ${Loukurinha} 10s linear infinite forwards;
 `;
 
@@ -50,43 +51,14 @@ export const Titulo = Styled.h1`
     color: #424242;
     text-align: center;
     font-family: 'Sans-serif';
-`;
-
-export const Paragrafo = Styled.p`
-    color: ${props => props.error ? '#e64a19' : '#546e7a'};
-    font-size: ${props => props.error ? '30px' : '14px'};
-    font-weight: ${props => props.error ? '600' : 'normal'};
-    transition: all 0.5s ease;
-    height: 60px;
-    margin: ${props => props.margin || '0px'};
-    font-family: 'Sans-serif';
-`;
-
-export const AlternaError = Styled.button`
-    color: #fff;
-    background: #26a69a;
-    font-size: 14px;
-    padding: 0 16px;
-    height: 36px;
-    border-radius: 2px;
-    border: 0px;
-    cursor: pointer;
-    font-family: 'Sans-serif';
-    margin: 15px 0;
-`;
-
-export const Line = Styled.div`
-    background: #616161;
-    height: 1px;
+    margin-bottom: 140px;
 `;
 
 export const BolaAleatoria = Styled.div`
-    width: 400px;
-    height: 400px;
+    width: 130px;
+    height: 130px;
     border-radius: 10px;
     background: #212121;
     animation: ${Loukura} 2s linear infinite forwards;
     margin: 0px auto;
 `;
-
-
