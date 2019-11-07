@@ -3,9 +3,9 @@ import * as Style from "./style";
 const RotateComponent = () => {
   return (
     <Style.Container>
-      <Style.Paragrafo>
-        Animação aleatória:
-      </Style.Paragrafo>
+      <Style.Titulo>
+        Animação aleatória
+      </Style.Titulo>
       <Style.BolaAleatoria />
     </Style.Container>
   );

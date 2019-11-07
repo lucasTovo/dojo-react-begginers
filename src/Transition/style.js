@@ -28,6 +28,7 @@ const Loukura = keyframes`
 
 export const Container = Styled.div`
     padding: 30px 65px;
+    text-align: center;
 `;
 
 export const Titulo = Styled.h1`
@@ -46,9 +47,9 @@ export const Paragrafo = Styled.p`
     font-family: 'Sans-serif';
 `;
 
-export const AlternaError = Styled.button`
+export const Button = Styled.button`
     color: #fff;
-    background: #26a69a;
+    background: #424242;
     font-size: 14px;
     padding: 0 16px;
     height: 36px;
@@ -57,6 +58,7 @@ export const AlternaError = Styled.button`
     cursor: pointer;
     font-family: 'Sans-serif';
     margin: 15px 0;
+    outline-style: none;
 `;
 
 export const Line = Styled.div`

@@ -5,12 +5,12 @@ const TransitionComponent = () => {
 
   return (
     <Style.Container>
-      <Style.Paragrafo error={error}>
+      <Style.Paragrafo margin={'10px'} error={error}>
         Clique no botão para me alternar!
       </Style.Paragrafo>
-      <Style.AlternaError onClick={() => setError(!error)}>
+      <Style.Button onClick={() => setError(!error)}>
         Aqui mesmo!
-      </Style.AlternaError>
+      </Style.Button>
     </Style.Container>
   );
 };

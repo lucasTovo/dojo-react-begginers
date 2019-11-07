@@ -25,9 +25,25 @@ const Loukura = keyframes`
         transform: rotate(360deg);
     }
 `;
+const Loukurinha = keyframes`
+    0% {
+        background: #d81b60;
+    } 20% {
+        background: #ba68c8;
+    } 40% {
+        background: #212121;
+    } 60% {
+        background: #2196f3;
+    } 80% {
+        background: #26a69a;
+    } 100% {
+        background: #d81b60;
+    }
+`;
 
 export const Container = Styled.div`
     padding: 30px 65px;
+    animation: ${Loukurinha} 10s linear infinite forwards;
 `;
 
 export const Titulo = Styled.h1`
@@ -65,12 +81,12 @@ export const Line = Styled.div`
 `;
 
 export const BolaAleatoria = Styled.div`
-    width: 70px;
-    height: 70px;
+    width: 400px;
+    height: 400px;
     border-radius: 10px;
     background: #212121;
-    animation: ${Loukura} 1.5s linear infinite forwards;
-    margin: 5px;
+    animation: ${Loukura} 2s linear infinite forwards;
+    margin: 0px auto;
 `;
 
 
